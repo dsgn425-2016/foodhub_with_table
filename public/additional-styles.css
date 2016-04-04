@@ -1,0 +1,61 @@
+
+td {
+  border: thin red solid;
+}
+.company-name {
+  font-family: 'Oswald', sans-serif;
+  background-color: red;
+  color: white;
+  text
+}
+.top-banner-mid {
+  background-color: red;
+  color: white;
+}
+
+.main-content {
+  width: 100%;
+}
+
+.hero {
+  text-align: center;
+  color: white;
+  background: url(main-hero.jpg) no-repeat center ;
+  background-size: cover;
+  height: 400;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.app-hero {
+  text-align: center;
+  color: white;
+  background: url(download-hero.jpg) no-repeat center ;
+  background-size: cover;
+  height: 400;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.heading-row {
+  text-align: center;
+}
+
+.how-to-cell {
+  text-align: center;
+}
+
+.how-to-img {
+  width: 200px;
+  border-radius: 50%;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+button {
+  background-color: rgb(0,126,229);
+  color: white;
+  width: 200;
+  height: 40;
+}

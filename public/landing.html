@@ -3,50 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <title>Foodhub</title>
-
-  <style media="screen">
-  * {
-    border: thin red solid;
-  }
-  .main-content {
-    width: 100%;
-  }
-  </style>
+  <link rel="stylesheet" href="additional-styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 
 <body>
   <table class="main-content">
     <!-- Header -->
     <tr>
-      <td colspan="4">
+      <td colspan="10" class="company-name">
         <h1>FOODHUB</h1>
 
       </td>
-      <td colspan="4">
+      <td colspan="1" class="top-banner">
         <h1>Sign In</h1>
 
       </td>
-      <td colspan="4">
-        <h1>Shopping Cart</h1>
+      <td colspan="1" class="top-banner">
+        <i class="fa fa-shopping-bag"></i>
 
       </td>
     </tr>
 
     <!-- Banner -->
     <tr>
-      <td colspan="12">
-        <h1>Who delivers in your neighborhood?</h1>
+      <td colspan="12" class="hero">
+        <h2>Who delivers in your neighborhood?</h2>
 
-        <p>Enter your address below</p>
-        <!-- create textbox -->
-        <!-- create submit button -->
+        <form class="" action="index.html" method="post">
+          <div class="">
+            <label for="">Enter your address below</label>
+          </div>
+          <div class="">
+            <i class="fa fa-map-marker"></i>
+            <input type="text" name="name" value="street address, city, state">
+
+          </div>
+          <div class="">
+
+            <button type="button" name="button">Find Food</button>
+          </div>
+
+        </form>
 
       </td>
     </tr>
 
     <!-- How to foodhub -->
     <tr>
-      <td colspan="12">
+      <td colspan="12" class="heading-row">
         <h1>How to foodhub</h1>
 
         <h2>Ordering from your favorite restaurant is even easier than eating.</h2>
@@ -56,31 +61,34 @@
 
     <!-- Where what how -->
     <tr>
-      <td colspan="4">
-        <h1>The where</h1>
+      <td colspan="4" class="how-to-cell">
+        <img src="map.jpg" alt="" class="how-to-img"/>
+        <h3>The where</h3>
 
-        <h2>Browse menus from your facorite local restaurants</h2>
-
-      </td>
-
-      <td colspan="4">
-        <h1>The what</h1>
-
-        <h2>Select what you want to eat. Submit your order</h2>
+        <p>Browse menus from your facorite local restaurant</p>
 
       </td>
 
-      <td colspan="4">
-        <h1>The delivery</h1>
+      <td colspan="4" class="how-to-cell">
+        <img src="menu.jpg" alt="" class="how-to-img"/>
+        <h3>The what</h3>
 
-        <h2>Get the door and enjoy your food!</h2>
+        <p>Select what you want to eat. Submit your order</p>
+
+      </td>
+
+      <td colspan="4" class="how-to-cell">
+        <img src="delivery.jpg" alt="" class="how-to-img"/>
+        <h3>The delivery</h3>
+
+        <p>Get the door and enjoy your food</p>
 
       </td>
     </tr>
 
     <!-- Sound bites banner-->
     <tr>
-      <td colspan="12">
+      <td colspan="12" class="heading-row">
         <h1>Sound bites</h1>
       </td>
     </tr>
@@ -131,21 +139,21 @@
 
     <!-- Download apps -->
     <tr>
-      <td colspan="12">
-        <h1>Download apps</h1>
+      <td colspan="12" class="app-hero">
+        <h2>Download apps</h2>
 
-        <h2>Millions of users wand we want to befriend each one. 900+ cities and more than 35,000 restaurants.</h2>
+        <h3>Millions of users wand we want to befriend each one. 900+ cities and more than 35,000 restaurants.</h3>
 
-        <img src="app-store-badge.png" alt=""  height="60"/>
-        <img src="google-play-badge.png" alt="" height="60"/>
+        <img src="app-store-badge.png" alt=""  width="200"/>
+        <img src="google-play-badge.png" alt="" width="200"/>
 
       </td>
     </tr>
 
     <!-- Why foodhub -->
     <tr>
-      <td colspan="12">
-        <h1>Why order with Foodhub?</h1>
+      <td colspan="12" class="heading-row">
+        <h2>Why order with Foodhub?</h2>
 
       </td>
     </tr>
