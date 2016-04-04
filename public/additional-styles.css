@@ -3,14 +3,15 @@ td {
   border: thin red solid;
 }
 .company-name {
-  font-family: 'Oswald', sans-serif;
-  background-color: red;
+  font-family: 'Passion One', cursive;
+  background-color: rgb(246,52,64);
   color: white;
-  text
+  font-size: 28;
 }
-.top-banner-mid {
-  background-color: red;
+.top-banner {
+  background-color: rgb(246,52,64);
   color: white;
+  font-size: 18;
 }
 
 .main-content {
@@ -41,12 +42,19 @@ td {
 
 .how-to-cell {
   text-align: center;
+  vertical-align: top;
 }
 
 .how-to-img {
   width: 200px;
   border-radius: 50%;
 }
+
+.soundbites-img {
+  width: 100px;
+  border-radius: 50%;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
 }
