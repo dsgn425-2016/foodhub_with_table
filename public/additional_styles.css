@@ -1,0 +1,85 @@
+.main-content {
+  width: 100%;
+}
+
+td {
+  border: thin red solid;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero {
+  color: white;
+  text-align: center;
+  background: url("main-hero.jpg")no-repeat center center;
+  background-size: cover;
+  height: 300px;
+}
+
+button {
+  background-color: rgb(0, 126, 229);
+  color: white;
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.cent {
+  text-align: center;
+}
+
+.download {
+  color: white;
+  text-align: center;
+  background: url("download-hero.jpg")no-repeat center center;
+  background-size: cover;
+  height: 300px;
+}
+
+.how-to-image {
+  width: 200px;
+  border-radius: 50%
+}
+
+.people {
+  width: 50px;
+  border-radius: 50%
+}
+
+.red {
+  background-color: red
+}
+
+.gray {
+  background-color: rgb(238, 238, 238);
+}
+
+.blue {
+  background-color: rgb(50, 50, 170);
+}
+
+.white_text {
+  color: white
+}
+
+.left_top {
+  font-family: 'Passion One', cursive;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.download_button {
+  width: 200px;
+}
+
+.align_top {
+  vertical-align: top;
+  padding-left: 10px;
+
+}
+
+.align_center {
+  text-align: center;
+}
