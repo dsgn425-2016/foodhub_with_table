@@ -2,7 +2,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Foodhub</title>
+  <title>Draft - Foodhub</title>
   <link rel="stylesheet" href="additional-styles.css">
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Passion+One' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -21,7 +21,7 @@
 
       </td>
       <td class="top-banner">
-        <i class="fa fa-shopping-bag"></i>
+        <i class="fa fa-shopping-bag fa-lg"></i>
 
       </td>
     </tr>
@@ -29,15 +29,17 @@
     <!-- Banner -->
     <tr>
       <td colspan="12" class="hero">
+
         <h2>Who delivers in your neighborhood?</h2>
 
         <form class="" action="index.html" method="post">
+
           <div class="">
             <label for="">Enter your address below</label>
           </div>
           <div class="">
             <i class="fa fa-map-marker"></i>
-            <input type="text" name="name" value="street address, city, state">
+            <input type="text" name="name" value="street address, city, state" class="input-field">
 
           </div>
           <div class="">
@@ -53,9 +55,9 @@
     <!-- How to foodhub -->
     <tr>
       <td colspan="12" class="heading-row">
-        <h1>How to Foodhub</h1>
+        <h2>How to Foodhub</h2>
 
-        <h2>Ordering from your favorite restaurant is even easier than eating.</h2>
+        <p>Ordering from your favorite restaurant is even easier than eating.</p>
 
       </td>
     </tr>
@@ -89,14 +91,14 @@
 
     <!-- Sound bites banner-->
     <tr>
-      <td colspan="12" class="heading-row">
-        <h1>Sound bites</h1>
+      <td colspan="12" class="actual-sound-bites">
+        <h2>Sound bites</h2>
       </td>
     </tr>
 
     <!-- Actual sound bites -->
     <tr>
-      <td colspan="3" class="how-to-cell">
+      <td colspan="3" class="sound-bites">
         <img src="user-1.jpg" alt="" class="soundbites-img"/>
 
         <p>@Foodhub I love you, Foodhub! Just ordered me some grub, and I tell you, you folks make that part of my life easy. Thanks!</p>
@@ -106,7 +108,7 @@
         </p>
       </td>
 
-      <td colspan="3" class="how-to-cell">
+      <td colspan="3" class="actual-sound-bites">
         <img src="user-2.jpg" alt="" class="soundbites-img"/>
 
         <p>Made my first @Foodhub order today. So great to be able to order food and not have to talk to anyone.</p>
@@ -116,7 +118,7 @@
         </p>
       </td>
 
-      <td colspan="3" class="how-to-cell">
+      <td colspan="3" class="actual-sound-bites">
         <img src="user-3.jpg" alt="" class="soundbites-img"/>
 
         <p>Shout out to Foodhub for making my life so so easy.</p>
@@ -126,7 +128,7 @@
         </p>
       </td>
 
-      <td colspan="3" class="how-to-cell">
+      <td colspan="3" class="actual-sound-bites">
         <img src="user-4.jpg" alt="" class="soundbites-img"/>
 
         <p>Seriously, @Foodhub makes it easy for my coworkers and I to order food and get it to our office in a jiffy. FOOD!</p>
@@ -143,7 +145,7 @@
       <td colspan="12" class="app-hero">
         <h2>Download apps</h2>
 
-        <h3>Millions of users wand we want to befriend each one. 900+ cities and more than 35,000 restaurants.</h3>
+        <p class="tagline">Millions of users wand we want to befriend each one. 900+ cities and more than 35,000 restaurants.</p>
 
         <img src="app-store-badge.png" alt=""  width="200"/>
         <img src="google-play-badge.png" alt="" width="200"/>
@@ -153,7 +155,7 @@
 
     <!-- Why foodhub -->
     <tr>
-      <td colspan="12" class="heading-row">
+      <td colspan="12" class="sound-bites">
         <h2>Why order with Foodhub?</h2>
 
       </td>
@@ -161,18 +163,30 @@
 
     <!-- Discover better food -->
     <tr>
-      <td colspan="4">
-        <img src="gem.jpg" alt="" height="200"/>
+      <td colspan="4" class="discover-better-food-cell">
+        <img src="gem.jpg" class="discover-better-food-img"/>
+        <p class="discover-better-food-txt">
+          <b>Discover</b>
+        </p>
+        <p>We'll help you find hidden gems in your neighborhood.</p>
+      </td>
+
+      <td colspan="4" class="discover-better-food-cell">
+        <img src="like.jpg" class="discover-better-food-img"/>
+        <p class="discover-better-food-txt">
+          <b>Better</b>
+        </p>
+        <p>The more you use Foodhub, the better we are at making recommendations just for you.</p>
 
       </td>
 
-      <td colspan="4">
-        <img src="like.jpg" alt="" height="200"/>
+      <td colspan="4" class="discover-better-food-cell">
+        <img src="bite.jpg" class="discover-better-food-img"/>
+        <p class="discover-better-food-txt">
+          <b>Food</b>
+        </p>
+        <p>Enjoy each bite all the more knowing your order supports local businesses.</p>
 
-      </td>
-
-      <td colspan="4">
-        <img src="bite.jpg" alt="" height="200"/>
 
       </td>
 
@@ -180,12 +194,12 @@
 
     <!-- About foodhub -->
     <tr>
-      <td colspan="6">
-        <h1>About Foodhub</h1>
+      <td colspan="6" class="about-foodhub-cell">
+        <h2>About Foodhub</h2>
 
       </td>
 
-      <td colspan="6">
+      <td colspan="6" class="about-foodhub-details">
         <p>
           Foodhub helps you find and order food from wherever you are. How it works: you type in an address, we tell you the restaurants that deliver to that locale as well as showing you droves of pickup restaurants near you. Want to be more specific? Search by cuisine, restaurant name or menu item. We'll filter your results accordingly. When you find what you're looking for, you can place your order online or by phone, free of charge. Oh, and we also give you access to reviews, coupons, special deals and a 24/7 customer care team that tracks each order and makes sure you get exactly what you want.
         </p>
@@ -196,71 +210,58 @@
 
     <!-- bottom nav -->
     <tr>
-      <td colspan="3">
-        <h2>Sign up for special offers</h2>
+      <td colspan="3" class="bottom-navigation-cell">
+        <h4>Sign up for special offers</h4>
+
         <!-- textbox for email -->
+        <input type="text" name="email" value="Email" class="input-field">
         <!-- zip code -->
+        <div class="">
+          <input type="text" name="zip" value="ZIP code" class="input-field">
+        </div>
         <!-- button : send me treats -->
+        <div class="">
+          <button type="button" name="treat button">Send me treats</button>
+
+        </div>
       </td>
 
-      <td colspan="3">
-        <h2>Get to know us</h2>
+      <td colspan="3" class="bottom-navigation-cell">
+        <h4>Get to know us</h4>
         <ul>
-          About FoodHub
-        </ul>
-        <ul>
-          Our apps
-        </ul>
-        <ul>
-          Our blog
-        </ul>
-        <ul>
-          Careers
-        </ul>
-        <ul>
-          Investor relations
-        </ul>
-        <ul>
-          News
+          <li class="li-footer">About FoodHub</li>
+          <li class="li-footer">Our apps</li>
+          <li class="li-footer">Our blog</li>
+          <li class="li-footer">Careers</li>
+          <li class="li-footer">Investor relations</li>
+          <li class="li-footer">News</li>
         </ul>
 
       </td>
 
-      <td colspan="3">
-        <h2>Help</h2>
+      <td colspan="3" class="bottom-navigation-cell">
+        <h4>Help</h4>
         <ul>
-          FAQ
-        </ul>
-        <ul>
-          Contact us
+          <li class="li-footer">FAQ</li>
+          <li class="li-footer">Contact us</li>
         </ul>
 
-        <h2>Connect with us</h2>
+        <h4>Connect with us</h4>
         <ul>
-          Facebook
-        </ul>
-        <ul>
-          Twitter
-        </ul>
-        <ul>
-          Instagram
-        </ul>
-        <ul>
-          Youtube
+          <li class="li-footer">Facebook</li>
+          <li class="li-footer">Twitter</li>
+          <li class="li-footer">Instagram</li>
+          <li class="li-footer">Youtube</li>
         </ul>
 
       </td>
 
-      <td colspan="3">
+      <td colspan="3" class="bottom-navigation-cell">
         <h2>Partner with us</h2>
         <ul>
-          For restaurants
-        </ul>
-        <ul>
-          For drivers
-        </ul>
-        <ul>
-          For corporate accounts
+          <li class="li-footer">For restaurants</li>
+          <li class="li-footer">For drivers</li>
+          <li class="li-footer">Corporate Partners</li>
         </ul>
 
       </td>

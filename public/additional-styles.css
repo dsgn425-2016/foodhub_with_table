@@ -1,17 +1,44 @@
 
 td {
   border: thin red solid;
+  padding-left: 10px;
+  padding-right: 10px;
+  /*padding-bottom: 20px;*/
 }
+
+h2,h4 {
+  padding-top: 20px;
+  margin-bottom:20px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+
+button {
+  background-color: rgb(0,126,229);
+  color: white;
+  width: 200;
+  height: 40;
+}
+
 .company-name {
   font-family: 'Passion One', cursive;
   background-color: rgb(246,52,64);
   color: white;
-  font-size: 28;
+  font-size: 32;
+  padding-left: 10px;
+  padding-right: 10px;
 }
+
 .top-banner {
   background-color: rgb(246,52,64);
   color: white;
-  font-size: 18;
+  font-size: 16;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .main-content {
@@ -29,6 +56,7 @@ td {
 
 .app-hero {
   text-align: center;
+  vertical-align: middle;
   color: white;
   background: url(download-hero.jpg) no-repeat center ;
   background-size: cover;
@@ -38,11 +66,14 @@ td {
 
 .heading-row {
   text-align: center;
+  vertical-align: middle;
+  padding-bottom: 20px;
 }
 
 .how-to-cell {
   text-align: center;
   vertical-align: top;
+  padding-bottom: 10px;
 }
 
 .how-to-img {
@@ -50,20 +81,63 @@ td {
   border-radius: 50%;
 }
 
+.sound-bites {
+  background-color: rgb(238, 238, 238);
+  text-align: center;
+  vertical-align: middle;
+}
+.actual-sound-bites {
+  background-color: rgb(238, 238, 238);
+  text-align: center;
+  vertical-align: top;
+  padding-bottom: 10px;
+}
+
 .soundbites-img {
-  width: 100px;
+  width: 50px;
   border-radius: 50%;
 }
 
-body {
-  font-family: 'Montserrat', sans-serif;
+.tagline {
+  font-size: 22px;
 }
 
+.discover-better-food-cell{
+  background-color: rgb(238, 238, 238);
+  text-align: center;
+  vertical-align: top;
+}
+.discover-better-food-img{
+  width: 200px;
+  border-radius: 50%;
+}
 
+.discover-better-food-txt{
+  margin-top: 45px;
+}
 
-button {
-  background-color: rgb(0,126,229);
+.about-foodhub-cell {
+  text-align: center;
+  vertical-align: top;
+}
+.about-foodhub-details {
+  text-align: left;
+  vertical-align: top;
+  padding-top: 10px;
+}
+
+.bottom-navigation-cell {
+  background-color: rgb(50, 50, 170);
+  padding-top: 10px;
+  vertical-align: top;
   color: white;
-  width: 200;
-  height: 40;
+}
+
+.li-footer {
+  padding-bottom: 10px;
+}
+
+.input-field {
+  color: grey;
+  margin: 1px;
 }
