@@ -1,0 +1,114 @@
+.main-content {
+  width: 100%;
+}
+td{
+  border: thin red solid;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4 {
+  font-weight: 700;
+}
+.headingFOODHUB{
+  font-family: "Passion One";
+  font-size: xx-large;
+  color: white;
+  background-color: rgb(246,52,64);
+  height: 35px;
+}
+.heading{
+  color: white;
+  background-color: rgb(246,52,64);
+  height: 35px;
+
+}
+.hero{
+  color: white;
+  text-align: center;
+  background: url("main-hero.jpg")
+  no-repeat center center;
+  background-size: cover;
+  height: 400px;
+}
+Button {
+  background-color: rgb(0,126,229);
+  color: white;
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+}
+.heading-row{
+  text-align: center;
+}
+.how-to-image{
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.user-image{
+  width: 50px;
+  border-radius: 50%;
+}
+.user{
+  text-align: center;
+  vertical-align: text-top;
+  background-color: rgb(230,230,230)
+}
+.how-to-cell{
+  text-align: center;
+  vertical-align: top;
+}
+.sound-bite-heading{
+  text-align: center;
+  background-color: rgb(230,230,230)
+}
+.download{
+  color: white;
+  text-align: center;
+  background: url("download-hero.jpg")
+  no-repeat center center;
+  background-size: cover;
+  height: 400px;
+}
+.tagline{
+  font-size: 22px
+}
+.app-store-badge{
+  height: 60px
+}
+.why{
+  text-align: center;
+  background-color: rgb(238,238,238);
+}
+.why-order-box{
+  text-align: center;
+  vertical-align: text-top;
+  background-color: rgb(238,238,238);
+}
+.why-order{
+  width: 200px;
+  border-radius: 50%;
+  vertical-align: top;
+  margin-bottom: 20px;
+}
+.aboutFoodhub{
+  text-align: center;
+  vertical-align: text-top;
+}
+.footer {
+  color: white;
+  background-color: rgb(50, 50, 170);
+  vertical-align: text-top;
+
+}
+.h4-footer{
+  margin-bottom: 10px;
+}
+
+.li-footer {
+  color: white;
+  margin-bottom: 10px;
+}
