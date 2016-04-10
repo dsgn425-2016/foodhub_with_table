@@ -1,0 +1,83 @@
+.main-content {
+  width:100%;
+}
+.foodhub{
+  background-color: rgb(246, 52, 64);
+  color: white;
+  verticle-align: middle;
+}
+.logo{
+  font-family: 'Passion One', cursive;
+  font-size: 32px;
+}
+.heading-row{
+  text-align: center;
+}
+.how-to-image{
+width:200px;
+border-radius: 50%
+}
+.how-to-cell{
+  text-align: center;
+  vertical-align: top
+}
+.sound-bite-cell{
+  text-align: center;
+  vertical-align: top
+}
+
+.sound-bite-image{
+  width:100px;
+  border-radius: 50%;
+}
+.download-apps-image{
+  color: white;
+  text-align: center;
+  background: url(download-hero.jpg) no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  vertical-align: middle;
+}
+.download-tag{
+  font-size: 22px;
+}
+.app-store-image{
+  width:200px
+}
+.why-order-cell{
+  text-align: center;
+  vertical-align: top
+}
+.why-order-image{
+  width:200px;
+  border-radius: 50%;
+}
+.about-foodhub{
+  text-align: center;
+  vertical-align: top;
+}
+.footer{
+background-color:rgb(50, 50, 170);
+color: white;
+vertical-align: top
+}
+td {
+  border:thin red solid
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.hero {
+    color:white;
+    text-align: center;
+  background: url("main-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 300px;
+}
+
+button {
+  background-color: rgb(0, 126, 229);
+  color: white;
+  width:200px;
+  height:40px;border-radius: 5px;
+}
