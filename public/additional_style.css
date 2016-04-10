@@ -4,10 +4,28 @@
 
 td {
 border: thin red solid;
+padding-left: 10px;
+padding-right: 10px;
+display: table-cell;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+  background-color: rgb(246,52,64);
+  vertical-align: middle;
+}
+
+.navbar a {
+  color: white !important;
+  text-decoration: none;
+}
+
+.logo {
+  font-family: "Passion One";
+  font-size: xx-large;
 }
 
 .heading-row {
@@ -19,17 +37,71 @@ body {
   text-align: center;
   background: url("main-hero.jpg") no-repeat center center;
   background-size: cover;
-  height: 300px;
+  height: 400px;
+  vertical-align: middle;
+}
+
+.vertical-top {
+  vertical-align: top;
+}
+
+.add-bottom-margin {
+  margin-bottom: 20px;
 }
 
 .how-to-cell {
   text-align: center;
 }
 
+.sound-bites, .why-order {
+  background-color: rgb(238, 238, 238);
+}
+
 .how-to-image {
   width: 200px;
   border-radius: 50%;
+}
 
+.user-cell {
+  text-align: center;
+}
+
+.user-image {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.download-hero {
+  color: white;
+  text-align: center;
+  background: url("download-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  vertical-align: middle;
+}
+
+.tagline {
+  font-size: 22px;
+}
+
+.app-image {
+  width: 200px;
+}
+
+.footer-background {
+  background-color: rgb(50,50,170);
+  color: white;
+}
+
+.footer-sub-header {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.footer-li {
+  color: white;
+  margin-bottom: 10px;
 }
 
 button {
@@ -38,4 +110,12 @@ button {
   height: 40px;
   width: 200px;
   border-radius: 5px;
+}
+
+p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
 }
