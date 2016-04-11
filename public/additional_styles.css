@@ -1,0 +1,90 @@
+.main-content {
+  width: 100%;
+}
+
+.heading-row {
+  text-align: center;
+}
+
+.navbar {
+  color: white;
+  background-color: rgb(246,52,64);
+}
+
+.nav_brand {
+  font-family: "Passion One";
+}
+
+.how-to-image {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.how-to-cell {
+  text-align: center;
+}
+
+.sound-bites, .why-order {
+  background-color: rgb(238, 238, 238);
+}
+
+.sound-bites-image {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.sound-bites-cell {
+  text-align: center
+}
+
+.why-order-image {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.why-order-cell {
+  text-align: center;
+}
+td {
+  vertical-align: top;
+  border: thin red solid;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+.hero {
+  color: white;
+  text-align: center;
+  background: url("main-hero.jpg")
+  no-repeat center center;
+  background-size: cover;
+  height: 300px;
+}
+button {
+  background-color: rgb(0, 126, 229);
+  color: white;
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.download {
+  color: white;
+  text-align: center;
+  background: url("download-hero.jpg")
+  no-repeat center center;
+  background-size: cover;
+  height: 300px;
+}
+
+.store-badge {
+  width: 200px;
+}
+
+.footer {
+  color: white;
+  background-color: rgb(50, 50, 170);
+}
