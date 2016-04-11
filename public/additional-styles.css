@@ -1,0 +1,147 @@
+.main-content{
+  width: 100%;
+}
+
+td{
+  border: thin red solid;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h1, h2, h3, h4{
+  font-weight:700;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navigation-bar{
+  background-color: rgb(246,52,64);
+  color: white;
+  vertical-align: middle;
+}
+
+.navigation-bar a{
+  color:white;
+  text-decoration:none;
+}
+
+.navigation-bar td{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navigation-header{
+  font-family: 'Passion One', cursive;
+  font-size: xx-large;
+}
+
+.hero {
+  text-align: center;
+  background: url("main-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  color: white;
+  vertical-align: middle;
+}
+
+button {
+  background-color: rgb(0, 126, 229);
+  color: white;
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+button:hover{
+  background-color: rgb(0, 65, 117);
+}
+
+.heading-row {
+  text-align: center;
+}
+
+.how-to-image{
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.how-to-cell {
+  text-align: center;
+  vertical-align: top;
+}
+
+
+.sound-bite-image{
+  width:50px;
+  border-radius:50%;
+  vertical-align: top;
+}
+
+.sound-bite-cell{
+  text-align:center;
+  vertical-align: top;
+  background-color: rgb(238,238,238);
+}
+
+.twitter-name{
+  font-weight: bold;
+}
+
+.download-apps {
+  text-align: center;
+  background: url("download-hero.jpg")
+  no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  color: white;
+  vertical-align: middle;
+}
+
+.slogan{
+  font-size: 22px;
+}
+
+.badge {
+  height: 50px;
+  width: 200px;
+}
+
+.why-order-cell{
+  text-align: center;
+  background-color: rgb(238,238,238);
+  vertical-align: top;
+}
+
+.why-order-image{
+  width: 200px;
+  border-radius: 50%;
+  no-repeat center top;
+}
+
+.about{
+  text-align: center;
+  vertical-align: top;
+}
+
+.footer{
+  background-color: rgb(50, 50, 170);
+  color: white;
+}
+
+.footer-list-title{
+  color: white;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.li-footer {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.footer-list{
+  vertical-align: top;
+}
