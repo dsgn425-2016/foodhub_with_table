@@ -6,14 +6,80 @@
   text-align: center;
 }
 
+.heading-row2 {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+
+}
+
+.sideheader {
+  background-color: rgb(246,52,64);
+  color: white;
+  text-indent: .8%
+}
+
+.headercolor {
+background-color: rgb(246,52,64);
+color: white;
+font-family: 'Passion One';
+font-size: xx-large;
+text-indent: .8%
+
+}
+
 .how-to-image {
   width: 200px;
   border-radius: 50%;
 }
 
+.appwords {
+  font-style: normal;
+  font-size: large;
+}
+
+.badge-style {
+  width: 200px;
+}
+
+.app-page {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background: url("download-hero.jpg")
+  no-repeat center center;
+  background-size: cover;
+  height: 300px;
+}
+
+.how-to-content {
+  width: 50px;
+  border-radius: 50%;
+}
+
 .how-to-cell {
   text-align: center;
+  background-color: rgb(238, 238, 238);
+
 }
+
+.how-to-cell2 {
+  text-align: center;
+
+}
+
+.footerstyle {
+  background-color: rgb(50, 50, 170);
+  color: white;
+  text-indent: .8%
+
+}
+
+.how-to-cell3 {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+
+}
+
  td {
    border: thin red solid;
  }
