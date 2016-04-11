@@ -53,3 +53,30 @@ body {
   width: 200px;
   border-radius: 5px;
 }
+.why-images {
+  width: 200px;
+  border-radius: 50%;
+}
+.why-cell {
+  text-align: center;
+}
+.footer {
+  background-color: rgb(50, 50, 170);
+  text-color: white;
+
+}
+.h4-footer {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.li-footer {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.navbar {
+  background-color: rgb(246,52,64);
+  color: white;
+}
