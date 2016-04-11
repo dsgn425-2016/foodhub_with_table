@@ -1,0 +1,186 @@
+.main-content { width: 100%;}
+
+td {border: thin red solid;}
+
+.navbar {
+  background-color: rgb(246,52,64);
+  vertical-align: middle;
+}
+
+.navbar a {
+  color: white !important;
+  text-decoration: none;
+  font-size: xx-large;
+}
+
+.main-content {
+  width: 100%;
+}
+
+.navbar-brand {
+  font-family: "Passion One";
+  font-size: xx-large;
+}
+
+.hero{
+  text-align: center;
+  color: white;
+  background: url("main-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+button{
+background-color: rgb(0,126,229);
+color: white;
+border-radius: 5px;
+height: 40px;width: 200px;
+}
+
+.footer {
+  background-color: rgb(50, 50, 170);
+}
+
+.h4-footer{
+  color: white;
+}
+
+.li-footer{
+  color:white;
+}
+.heading-row{
+  text-align: center;
+}
+
+.how-to-image{
+  width: 200px;
+  border-radius: 50%;
+}
+
+.sound-bites, .why-order {
+  background-color: rgb(238, 238, 238);
+}
+.centered{
+  text-align: center;
+}
+
+
+.spotlight-image {
+  width: 200px;
+}
+
+.how-to-cell{
+  text-align: center;
+}
+
+.sound-bites-centered{
+  text-align: center;
+}
+
+.round-image-user-image{
+  border-radius: 50%;
+  width: 50px;
+}
+
+.tagline {
+  font-size: 22px;
+}
+
+/* Utility */
+
+.round-image {
+  border-radius: 50%;
+}
+
+.store-badge {
+  width: 200px;
+}
+
+.download-apps {
+  background: url("download-hero.jpg") no-repeat center center;
+  background-size: cover;
+  color: white;
+  height: 400px;
+  vertical-align: middle;
+}
+/* My standard vertical spacing classes */
+
+.padding-inside-top-xs {
+  padding-top: 10px;
+}
+
+.padding-inside-top-sm {
+  padding-top: 20px;
+}
+
+.padding-inside-top-md {
+  padding-top: 50px;
+}
+
+.padding-inside-top-lg {
+  padding-top: 150px;
+}
+
+.padding-inside-top-xl {
+  padding-top: 200px;
+}
+
+.padding-inside-bottom-xs {
+  padding-bottom: 10px;
+}
+
+.padding-inside-bottom-sm {
+  padding-bottom: 20px;
+}
+
+.padding-inside-bottom-md {
+  padding-bottom: 50px;
+}
+
+.padding-inside-bottom-lg {
+  padding-bottom: 150px;
+}
+
+.padding-inside-bottom-xl {
+  padding-bottom: 200px;
+}
+
+.margin-above-top-xs {
+  margin-top: 10px;
+}
+
+.margin-above-top-sm {
+  margin-top: 20px;
+}
+
+.margin-above-top-md {
+  margin-top: 50px;
+}
+
+.margin-above-top-lg {
+  margin-top: 150px;
+}
+
+.margin-below-bottom-xs {
+  margin-bottom: 10px;
+}
+
+.margin-below-bottom-sm {
+  margin-bottom: 20px;
+}
+
+.margin-below-bottom-md {
+  margin-bottom: 50px;
+}
+
+.margin-below-bottom-lg {
+  margin-bottom: 150px;
+}
+
+.margin-below-bottom-xl {
+  margin-bottom: 200px;
+}
