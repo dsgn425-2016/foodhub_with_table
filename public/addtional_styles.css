@@ -1,0 +1,116 @@
+/*This is test code to make sure this style sheet hooks correctly to landing.html*/
+/*h1 {color: red}*/
+
+.main-content{
+  width: 100%;
+}
+
+body {
+  font-family: "Montserrat";
+  font-size: 16px;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+}
+
+.how-to-image{
+  width: 200px;
+  border-radius: 50%;
+}
+
+.how-to-cell{
+  text-align: center;
+}
+
+td{
+  border: thin red solid;
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.centre-text{
+  text-align: center;
+}
+
+.hero1 {
+  color: white;
+  text-align: center;
+  background: url("main-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  vertical-align: middle;
+}
+
+.download-apps {
+  color: white;
+  text-align: center;
+  background: url("download-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  vertical-align: middle;
+}
+
+button{
+  background-color: rgb(0, 126, 229);
+  color: white;
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.mk-text-white{
+  color: white;
+}
+
+.navbar-bkgrd-color {
+  background-color: rgb(246,52,64);
+  vertical-align: middle;
+}
+
+.navbar-bkgrd-color a {
+  color: white !important;
+  text-decoration: none;
+}
+
+.navbar-brand {
+  font-family: "Passion One";
+  font-size: xx-large;
+}
+
+/*.sound-bites-bkgrd-color, .people-comments-bkgrd-color, .why-order-bkgrd-color, .why-orderRational-bkgrd-color */
+
+.grey-bkgrd-color {
+  background-color: rgb(238, 238, 238);
+  text-align: center;
+}
+
+.footer-bkgrd-color {
+  background-color: rgb(50, 50, 170);
+}
+
+.li-footer-format {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.user-image {
+    width: 50px;
+}
+
+.round-image {
+    border-radius: 50%;
+}
+
+/*p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}*/
