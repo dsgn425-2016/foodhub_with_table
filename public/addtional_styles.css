@@ -98,3 +98,19 @@ button{
   color: white;
   margin-bottom: 10px;
 }
+
+.user-image {
+    width: 50px;
+}
+
+.round-image {
+    border-radius: 50%;
+}
+
+/*p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}*/
